@@ -12,3 +12,4 @@ RUN mkdir /app
 WORKDIR /app
 COPY ./app /app
 RUN adduser -D user
+USER user
